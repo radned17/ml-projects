@@ -1,39 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/learning-more.html</loc>
-    <lastmod>2025-03-17T12:59:58.833Z</lastmod>
+    <loc>https://radned17.github.io/ml-projects/learning-more.html</loc>
+    <lastmod>2025-03-18T00:15:35.075Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/python-example.html</loc>
-    <lastmod>2025-03-17T12:59:58.833Z</lastmod>
+    <loc>https://radned17.github.io/ml-projects/project-proposals/vc-dimension.html</loc>
+    <lastmod>2025-03-18T00:15:35.075Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html</loc>
-    <lastmod>2025-03-17T12:59:58.863Z</lastmod>
+    <loc>https://radned17.github.io/ml-projects/project-proposals/explainable-dl.html</loc>
+    <lastmod>2025-03-18T00:15:35.075Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/index.html</loc>
-    <lastmod>2025-03-17T12:59:58.863Z</lastmod>
+    <loc>https://radned17.github.io/ml-projects/explore.html</loc>
+    <lastmod>2025-03-18T00:15:35.050Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/index.html</loc>
-    <lastmod>2025-03-17T12:59:58.833Z</lastmod>
+    <loc>https://radned17.github.io/ml-projects/quarto-workflows/jupyter.html</loc>
+    <lastmod>2025-03-18T00:15:35.106Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/transition-from-rmarkdown.html</loc>
-    <lastmod>2025-03-17T12:59:58.863Z</lastmod>
+    <loc>https://radned17.github.io/ml-projects/quarto-workflows/browser.html</loc>
+    <lastmod>2025-03-18T00:15:35.076Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/browser.html</loc>
-    <lastmod>2025-03-17T12:59:58.834Z</lastmod>
+    <loc>https://radned17.github.io/ml-projects/transition-from-rmarkdown.html</loc>
+    <lastmod>2025-03-18T00:15:35.106Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/jupyter.html</loc>
-    <lastmod>2025-03-17T12:59:58.863Z</lastmod>
+    <loc>https://radned17.github.io/ml-projects/index.html</loc>
+    <lastmod>2025-03-18T00:15:35.075Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/explore.html</loc>
-    <lastmod>2025-03-17T12:59:58.811Z</lastmod>
+    <loc>https://radned17.github.io/ml-projects/quarto-workflows/index.html</loc>
+    <lastmod>2025-03-18T00:15:35.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://radned17.github.io/ml-projects/quarto-workflows/rstudio.html</loc>
+    <lastmod>2025-03-18T00:15:35.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://radned17.github.io/ml-projects/python-example.html</loc>
+    <lastmod>2025-03-18T00:15:35.076Z</lastmod>
+  </url>
+  <url>
+    <loc>https://radned17.github.io/ml-projects/project-proposals/face-tracking.html</loc>
+    <lastmod>2025-03-18T00:15:35.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://radned17.github.io/ml-projects/project-proposals/time-series-modelling.html</loc>
+    <lastmod>2025-03-18T00:15:35.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://radned17.github.io/ml-projects/project-proposals/time-series-db.html</loc>
+    <lastmod>2025-03-18T00:15:35.075Z</lastmod>
   </url>
 </urlset>
