@@ -324,10 +324,65 @@
     "href": "project-proposals/face-tracking.html",
     "title": "Face Tracking",
     "section": "",
-    "text": "Your browser does not support the video tag. \nerer",
+    "text": "This is a typicl vsual computing task. The goal is to improve the performance of the face tracking algorithm (see the video below). The algorithm is implemented in Python using OpenCV. Current version exploits thresholding segmentation and tracking based on simple features like energy and velocity vrector.\n\n\nYour browser does not support the video tag.",
     "crumbs": [
       "Project proposals",
       "Face tracking"
+    ]
+  },
+  {
+    "objectID": "project-proposals/face-tracking.html#problem-statement",
+    "href": "project-proposals/face-tracking.html#problem-statement",
+    "title": "Face Tracking",
+    "section": "",
+    "text": "This is a typicl vsual computing task. The goal is to improve the performance of the face tracking algorithm (see the video below). The algorithm is implemented in Python using OpenCV. Current version exploits thresholding segmentation and tracking based on simple features like energy and velocity vrector.\n\n\nYour browser does not support the video tag.",
+    "crumbs": [
+      "Project proposals",
+      "Face tracking"
+    ]
+  },
+  {
+    "objectID": "project-proposals/face-tracking.html#suggestions",
+    "href": "project-proposals/face-tracking.html#suggestions",
+    "title": "Face Tracking",
+    "section": "Suggestions",
+    "text": "Suggestions\nOne may consider other types of segmentation like edge-based segmentation. As for tracking, one may try a simple SORT usung Kalman filter.",
+    "crumbs": [
+      "Project proposals",
+      "Face tracking"
+    ]
+  },
+  {
+    "objectID": "project-proposals/face-tracking.html#more-ambitious-ideas",
+    "href": "project-proposals/face-tracking.html#more-ambitious-ideas",
+    "title": "Face Tracking",
+    "section": "More ambitious ideas",
+    "text": "More ambitious ideas\n\nSuper resolution and face normalization\n\nIn ideal case, we would like to normalize faces. However this is a very challenging task due to a very low resolution of the video. We would need faces to be at least 60 x 90 pixels. To increase the resolution, we may consider using a super-resolution algorithm.",
+    "crumbs": [
+      "Project proposals",
+      "Face tracking"
+    ]
+  },
+  {
+    "objectID": "project-proposals/time-series-db.html",
+    "href": "project-proposals/time-series-db.html",
+    "title": "Time Series Database",
+    "section": "",
+    "text": "We have data that represent videos of facial heatmaps. These data are time series of 2D matrices that change shape with time. To store them, we employ TimescaleDB, which is an extension of PostgreSQL, optimized for time-series data.",
+    "crumbs": [
+      "Project proposals",
+      "Time series DB"
+    ]
+  },
+  {
+    "objectID": "project-proposals/time-series-db.html#problem-statement",
+    "href": "project-proposals/time-series-db.html#problem-statement",
+    "title": "Time Series Database",
+    "section": "",
+    "text": "We have data that represent videos of facial heatmaps. These data are time series of 2D matrices that change shape with time. To store them, we employ TimescaleDB, which is an extension of PostgreSQL, optimized for time-series data.",
+    "crumbs": [
+      "Project proposals",
+      "Time series DB"
     ]
   }
 ]

@@ -168,8 +168,16 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link active" data-scroll-target="#problem-statement">Problem Statement</a></li>
+  <li><a href="#suggestions" id="toc-suggestions" class="nav-link" data-scroll-target="#suggestions">Suggestions</a></li>
+  <li><a href="#more-ambitious-ideas" id="toc-more-ambitious-ideas" class="nav-link" data-scroll-target="#more-ambitious-ideas">More ambitious ideas</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/radned17/ml-projects/edit/main/project-proposals/face-tracking.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/radned17/ml-projects/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -199,14 +207,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="problem-statement">Problem Statement</h2>
+<p>This is a typicl vsual computing task. The goal is to improve the performance of the face tracking algorithm (see the video below). The algorithm is implemented in Python using OpenCV. Current version exploits thresholding <em>segmentation</em> and <em>tracking</em> based on simple features like energy and velocity vrector.</p>
 <video width="640" height="480" controls="">
 <source src="../videos/track.mp4" type="video/mp4">
 <p>Your browser does not support the video tag. </p>
-<p>erer</p>
+</video></section>
+<section id="suggestions" class="level2">
+<h2 class="anchored" data-anchor-id="suggestions">Suggestions</h2>
+<p>One may consider other types of segmentation like edge-based segmentation. As for tracking, one may try a simple <em>SORT</em> usung Kalman filter.</p>
+</section>
+<section id="more-ambitious-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="more-ambitious-ideas">More ambitious ideas</h2>
+<blockquote class="blockquote">
+<p>Super resolution and face normalization</p>
+</blockquote>
+<p>In ideal case, we would like to normalize faces. However this is a very challenging task due to a very low resolution of the video. We would need faces to be at least 60 x 90 pixels. To increase the resolution, we may consider using a super-resolution algorithm.</p>
 
 
+</section>
 
-</video></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -644,7 +666,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/radned17/ml-projects/edit/main/project-proposals/face-tracking.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/radned17/ml-projects/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/radned17/ml-projects/edit/main/project-proposals/face-tracking.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/radned17/ml-projects/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
