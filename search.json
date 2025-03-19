@@ -14,6 +14,50 @@
     "text": "An excellent overview: Reproducible authoring with Quarto - Mine Çetinkaya-Rundel, Feb 2022 - slides, youtube\nA Quarto tip a day in June 2022, from Mine Çetinkaya-Rundel.\n\n\n\nOpenscapes Champions Lessons Series\nOpenscapes Approach Guide\n\nNASA Earthdata Cloud Cookbook\n\nSee many more examples at the quarto gallery!\n\n\n\nAre you making onboarding documentation? Check out The Fay Lab Manual (now in Quarto!) for inspiration on structure - you could also start there and make it your own."
   },
   {
+    "objectID": "project-proposals/vc-dimension.html",
+    "href": "project-proposals/vc-dimension.html",
+    "title": "Vapnik–Chervonenkis Dimension",
+    "section": "",
+    "text": "We define a parametric space of stochastic processes1 so that a stochastic process realization (sample path) is a result of a composition of a time vector function,2 1D wavelet transform on each chanel of the time vector function, and a (possibly) non-linear dimensionality reduction.3\nIn our project, the parametric space of stochastic processes plays the role of a statistical classification model. VC dimension of the model is important as it measures its capacity, which helps to estimate the model’s generalization error. The goal is to find a balance where the model is complex enough to capture the underlying patterns but not so complex that it overfits the data.",
+    "crumbs": [
+      "Task proposals",
+      "VC dimension"
+    ]
+  },
+  {
+    "objectID": "project-proposals/vc-dimension.html#problem-statement",
+    "href": "project-proposals/vc-dimension.html#problem-statement",
+    "title": "Vapnik–Chervonenkis Dimension",
+    "section": "",
+    "text": "We define a parametric space of stochastic processes1 so that a stochastic process realization (sample path) is a result of a composition of a time vector function,2 1D wavelet transform on each chanel of the time vector function, and a (possibly) non-linear dimensionality reduction.3\nIn our project, the parametric space of stochastic processes plays the role of a statistical classification model. VC dimension of the model is important as it measures its capacity, which helps to estimate the model’s generalization error. The goal is to find a balance where the model is complex enough to capture the underlying patterns but not so complex that it overfits the data.",
+    "crumbs": [
+      "Task proposals",
+      "VC dimension"
+    ]
+  },
+  {
+    "objectID": "project-proposals/vc-dimension.html#suggestions",
+    "href": "project-proposals/vc-dimension.html#suggestions",
+    "title": "Vapnik–Chervonenkis Dimension",
+    "section": "Suggestions",
+    "text": "Suggestions\nThis task is challenging due to the complexity of the model. It requires a rigorous mathematical analysis, which involves proving whether a set of points can be shattered by the hypothesis space. This is non-trivial, and moreover, can be computationally very intensive!",
+    "crumbs": [
+      "Task proposals",
+      "VC dimension"
+    ]
+  },
+  {
+    "objectID": "project-proposals/vc-dimension.html#footnotes",
+    "href": "project-proposals/vc-dimension.html#footnotes",
+    "title": "Vapnik–Chervonenkis Dimension",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis function space is analogous to a feature encoding space in a supervised learning.↩︎\nA time vector function may be defined as a result of a discrete 2D wavelet transform applied to heatmap matrices in every time point↩︎\nFor example, a non-linear ICA implemented as CEBRA↩︎",
+    "crumbs": [
+      "Task proposals",
+      "VC dimension"
+    ]
+  },
+  {
     "objectID": "explore.html",
     "href": "explore.html",
     "title": "Explore and setup",
@@ -193,7 +237,7 @@
     "href": "index.html",
     "title": "Influence of Art on Brain Activity",
     "section": "",
-    "text": "This webpage is dedicated to an innovative project exploring the profound influence of musical stimuli on brain activity. Specifically, we immerse participants in the experience of full-length lyric operas, harnessing their rich musical and narrative complexity to study how these masterpieces engage the human mind.\nWe hypothesize that changes in skin temperature provide a reliable proxy for the impact of artistic stimuli on brain activity. Using a high-sensitivity thermocamera, we record videos of participants as they experience opera performances. These recordings allow us to track detailed facial heatmaps, capturing physiological responses over the duration of the performance.\nThe goal of this project is to uncover how complete operatic works influence brain activity, helping us identify strong musical triggers and enabling a deeper understanding of the human brain. This research can unlock insights into the cognitive and emotional processes shaped by art and contribute to fields such as neuroscience, psychology, and personalized artistic engagement.\nThe practical applications are wide-ranging. In healthcare, the findings may inspire personalized therapeutic interventions for conditions like stress, anxiety, and rehabilitation. In the realm of show business, they could inform the creation of immersive performances that maximize emotional resonance and audience engagement.",
+    "text": "This webpage is dedicated to an innovative research project exploring the profound influence of musical stimuli on brain activity. Specifically, we immerse participants in the experience of full-length lyric operas, harnessing their rich musical and narrative complexity to study how these masterpieces engage the human mind.\nWe hypothesize that changes in skin temperature provide a reliable proxy for the impact of artistic stimuli on brain activity. Using a high-sensitivity thermocamera, we record videos of participants as they experience opera performances. These recordings allow us to track detailed facial heatmaps, capturing physiological responses over the duration of the performance.\nThe goal of this project is to uncover how complete operatic works influence brain activity, helping us identify strong musical triggers and enabling a deeper understanding of the human brain. This research can unlock insights into the cognitive and emotional processes shaped by art and contribute to fields such as neuroscience, psychology, and personalized artistic engagement.\nThe practical applications are wide-ranging. In healthcare, the findings may inspire personalized therapeutic interventions for conditions like stress, anxiety, and rehabilitation. In the realm of show business, they could inform the creation of immersive performances that maximize emotional resonance and audience engagement.",
     "crumbs": [
       "Welcome"
     ]
@@ -203,7 +247,7 @@
     "href": "index.html#welcome",
     "title": "Influence of Art on Brain Activity",
     "section": "",
-    "text": "This webpage is dedicated to an innovative project exploring the profound influence of musical stimuli on brain activity. Specifically, we immerse participants in the experience of full-length lyric operas, harnessing their rich musical and narrative complexity to study how these masterpieces engage the human mind.\nWe hypothesize that changes in skin temperature provide a reliable proxy for the impact of artistic stimuli on brain activity. Using a high-sensitivity thermocamera, we record videos of participants as they experience opera performances. These recordings allow us to track detailed facial heatmaps, capturing physiological responses over the duration of the performance.\nThe goal of this project is to uncover how complete operatic works influence brain activity, helping us identify strong musical triggers and enabling a deeper understanding of the human brain. This research can unlock insights into the cognitive and emotional processes shaped by art and contribute to fields such as neuroscience, psychology, and personalized artistic engagement.\nThe practical applications are wide-ranging. In healthcare, the findings may inspire personalized therapeutic interventions for conditions like stress, anxiety, and rehabilitation. In the realm of show business, they could inform the creation of immersive performances that maximize emotional resonance and audience engagement.",
+    "text": "This webpage is dedicated to an innovative research project exploring the profound influence of musical stimuli on brain activity. Specifically, we immerse participants in the experience of full-length lyric operas, harnessing their rich musical and narrative complexity to study how these masterpieces engage the human mind.\nWe hypothesize that changes in skin temperature provide a reliable proxy for the impact of artistic stimuli on brain activity. Using a high-sensitivity thermocamera, we record videos of participants as they experience opera performances. These recordings allow us to track detailed facial heatmaps, capturing physiological responses over the duration of the performance.\nThe goal of this project is to uncover how complete operatic works influence brain activity, helping us identify strong musical triggers and enabling a deeper understanding of the human brain. This research can unlock insights into the cognitive and emotional processes shaped by art and contribute to fields such as neuroscience, psychology, and personalized artistic engagement.\nThe practical applications are wide-ranging. In healthcare, the findings may inspire personalized therapeutic interventions for conditions like stress, anxiety, and rehabilitation. In the realm of show business, they could inform the creation of immersive performances that maximize emotional resonance and audience engagement.",
     "crumbs": [
       "Welcome"
     ]
@@ -324,9 +368,9 @@
     "href": "project-proposals/face-tracking.html",
     "title": "Face Tracking",
     "section": "",
-    "text": "This is a typicl vsual computing task. The goal is to improve the performance of the face tracking algorithm (see the video below). The algorithm is implemented in Python using OpenCV. Current version exploits thresholding segmentation and tracking based on simple features like energy and velocity vrector.\n\n\nYour browser does not support the video tag.",
+    "text": "This is a typical computer vision task. The goal is to improve the performance of the face tracking algorithm (see the video below). The algorithm is implemented in Python using OpenCV. Current version exploits thresholding segmentation and tracking based on simple features like energy and velocity vector.\n\n\nYour browser does not support the video tag.",
     "crumbs": [
-      "Project proposals",
+      "Task proposals",
       "Face tracking"
     ]
   },
@@ -335,9 +379,9 @@
     "href": "project-proposals/face-tracking.html#problem-statement",
     "title": "Face Tracking",
     "section": "",
-    "text": "This is a typicl vsual computing task. The goal is to improve the performance of the face tracking algorithm (see the video below). The algorithm is implemented in Python using OpenCV. Current version exploits thresholding segmentation and tracking based on simple features like energy and velocity vrector.\n\n\nYour browser does not support the video tag.",
+    "text": "This is a typical computer vision task. The goal is to improve the performance of the face tracking algorithm (see the video below). The algorithm is implemented in Python using OpenCV. Current version exploits thresholding segmentation and tracking based on simple features like energy and velocity vector.\n\n\nYour browser does not support the video tag.",
     "crumbs": [
-      "Project proposals",
+      "Task proposals",
       "Face tracking"
     ]
   },
@@ -346,21 +390,54 @@
     "href": "project-proposals/face-tracking.html#suggestions",
     "title": "Face Tracking",
     "section": "Suggestions",
-    "text": "Suggestions\nOne may consider other types of segmentation like edge-based segmentation. As for tracking, one may try a simple SORT usung Kalman filter.",
+    "text": "Suggestions\nOne may consider other types of segmentation like edge-based segmentation. As for tracking, one may try a simple SORT algorithm using Kalman filter.\n\nMore ambitious ideas\n\nSuper resolution and face normalization\n\nIn ideal case, we would like to perform face normalization. However this is a very challenging task due to a very low resolution of our video data. We would need faces to be at least 60 x 90 pixels. To increase the resolution, we may consider using a super-resolution algorithm.1",
     "crumbs": [
-      "Project proposals",
+      "Task proposals",
       "Face tracking"
     ]
   },
   {
-    "objectID": "project-proposals/face-tracking.html#more-ambitious-ideas",
-    "href": "project-proposals/face-tracking.html#more-ambitious-ideas",
+    "objectID": "project-proposals/face-tracking.html#footnotes",
+    "href": "project-proposals/face-tracking.html#footnotes",
     "title": "Face Tracking",
-    "section": "More ambitious ideas",
-    "text": "More ambitious ideas\n\nSuper resolution and face normalization\n\nIn ideal case, we would like to normalize faces. However this is a very challenging task due to a very low resolution of the video. We would need faces to be at least 60 x 90 pixels. To increase the resolution, we may consider using a super-resolution algorithm.",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFor example, Azure OpenAI can leverage models like GPT-4 and DALL-E to enhance the resolution of thermal images, making them clearer and more detailed.↩︎",
     "crumbs": [
-      "Project proposals",
+      "Task proposals",
       "Face tracking"
+    ]
+  },
+  {
+    "objectID": "project-proposals/time-series-modelling.html",
+    "href": "project-proposals/time-series-modelling.html",
+    "title": "Time Series Modelling",
+    "section": "",
+    "text": "We propose a hypothesis suggesting a causal relationship between two stochastic processes, each defined in distinct state spaces with differing dimensions. The first process corresponds to a thermocamera video capturing faces, while the second represents a music recording.\nThe aim is to compare the self-forecasting of the first process with its forecasting that also incorporates insights from the second process. If the latter demonstrates superior performance, it could indicate a causal relationship between the two processes. This conclusion rests also on the assumption that an opera performance is highly unlikely to be influenced by its audience.",
+    "crumbs": [
+      "Task proposals",
+      "Time series modelling"
+    ]
+  },
+  {
+    "objectID": "project-proposals/time-series-modelling.html#time-series-modelling",
+    "href": "project-proposals/time-series-modelling.html#time-series-modelling",
+    "title": "Time Series Modelling",
+    "section": "",
+    "text": "We propose a hypothesis suggesting a causal relationship between two stochastic processes, each defined in distinct state spaces with differing dimensions. The first process corresponds to a thermocamera video capturing faces, while the second represents a music recording.\nThe aim is to compare the self-forecasting of the first process with its forecasting that also incorporates insights from the second process. If the latter demonstrates superior performance, it could indicate a causal relationship between the two processes. This conclusion rests also on the assumption that an opera performance is highly unlikely to be influenced by its audience.",
+    "crumbs": [
+      "Task proposals",
+      "Time series modelling"
+    ]
+  },
+  {
+    "objectID": "project-proposals/time-series-modelling.html#suggestions",
+    "href": "project-proposals/time-series-modelling.html#suggestions",
+    "title": "Time Series Modelling",
+    "section": "Suggestions",
+    "text": "Suggestions\ndf",
+    "crumbs": [
+      "Task proposals",
+      "Time series modelling"
     ]
   },
   {
@@ -368,9 +445,9 @@
     "href": "project-proposals/time-series-db.html",
     "title": "Time Series Database",
     "section": "",
-    "text": "We have data that represent videos of facial heatmaps. These data are time series of 2D matrices that change shape with time. To store them, we employ TimescaleDB, which is an extension of PostgreSQL, optimized for time-series data.",
+    "text": "We have data that represent videos of facial heatmaps. These data are time series of 2D matrices, the shape of which is a function of time. To store such data, we employ TimescaleDB, which is an extension of PostgreSQL, a relational DBMS optimized for time-series data.1\nWe have developed an API to access the data. The API is implemented in Python using Psycopg2 library, which is a popular PostgreSQL adapter for Python. The API allows needed data manipulation operations. In our pipeline, we retrieve the data from the database, and calculate other so-called derived features like mean, standard deviation, skewness, kurtosis, normalized-size heatmaps, discrete 2D wavelet transform etc. locally in Python.",
     "crumbs": [
-      "Project proposals",
+      "Task proposals",
       "Time series DB"
     ]
   },
@@ -379,9 +456,31 @@
     "href": "project-proposals/time-series-db.html#problem-statement",
     "title": "Time Series Database",
     "section": "",
-    "text": "We have data that represent videos of facial heatmaps. These data are time series of 2D matrices that change shape with time. To store them, we employ TimescaleDB, which is an extension of PostgreSQL, optimized for time-series data.",
+    "text": "We have data that represent videos of facial heatmaps. These data are time series of 2D matrices, the shape of which is a function of time. To store such data, we employ TimescaleDB, which is an extension of PostgreSQL, a relational DBMS optimized for time-series data.1\nWe have developed an API to access the data. The API is implemented in Python using Psycopg2 library, which is a popular PostgreSQL adapter for Python. The API allows needed data manipulation operations. In our pipeline, we retrieve the data from the database, and calculate other so-called derived features like mean, standard deviation, skewness, kurtosis, normalized-size heatmaps, discrete 2D wavelet transform etc. locally in Python.",
     "crumbs": [
-      "Project proposals",
+      "Task proposals",
+      "Time series DB"
+    ]
+  },
+  {
+    "objectID": "project-proposals/time-series-db.html#suggestions",
+    "href": "project-proposals/time-series-db.html#suggestions",
+    "title": "Time Series Database",
+    "section": "Suggestions",
+    "text": "Suggestions\nWe can define a more complex database schema that includes integrity constraints and triggers. The goal is to ensure data consistency and automate the calculation and storage of derived features within the DBMS. This approach eliminates the need to derive these features each time the ‘basic’ data is retrieved, enhancing efficiency and reliability.",
+    "crumbs": [
+      "Task proposals",
+      "Time series DB"
+    ]
+  },
+  {
+    "objectID": "project-proposals/time-series-db.html#footnotes",
+    "href": "project-proposals/time-series-db.html#footnotes",
+    "title": "Time Series Database",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWe could also consider using a different DB like InfluxDB or Prometheus.↩︎",
+    "crumbs": [
+      "Task proposals",
       "Time series DB"
     ]
   }
