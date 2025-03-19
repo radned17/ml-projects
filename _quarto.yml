@@ -33,7 +33,7 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - section: Project proposals
+      - section: Task proposals
         contents: 
           - href: project-proposals/face-tracking.md
             text: Face tracking
