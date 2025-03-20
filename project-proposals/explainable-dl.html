@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-03-19">
 
-<title>explainable-dl – Sharable documents with Quarto for ML and data science</title>
+<title>Explainable Deep Learning – Sharable documents with Quarto for ML and data science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../python-example.html" rel="next">
 <link href="../project-proposals/time-series-modelling.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -156,28 +156,66 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../python-example.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Python Example</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link active" data-scroll-target="#problem-statement">Problem Statement</a></li>
+  <li><a href="#suggestions" id="toc-suggestions" class="nav-link" data-scroll-target="#suggestions">Suggestions</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/radned17/ml-projects/edit/main/project-proposals/explainable-dl.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/radned17/ml-projects/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../project-proposals/face-tracking.html">Task proposals</a></li><li class="breadcrumb-item"><a href="../project-proposals/explainable-dl.html">Explainable DL</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../project-proposals/face-tracking.html">Task proposals</a></li><li class="breadcrumb-item"><a href="../project-proposals/explainable-dl.html">Explainable DL</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Explainable Deep Learning</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 19, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<section id="problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="problem-statement">Problem Statement</h2>
+<p>This task builds on the results of the Time series modelling. Specifically, it requires a well trained time series model, the accuracy of which supports our hypothesis of a causal association between musical stimuli and brain activity.</p>
+<p>The aim is to estimate the quality of the causal association by applying techniques of <em>explainable deep learning</em>. The goal is to understand the model’s decision-making process and to identify the most important features that influence the model’s predictions. This could lead to an improved understanding of the underlying causal mechanisms and identification of strong/main musical triggers of brain activity.</p>
+</section>
+<section id="suggestions" class="level2">
+<h2 class="anchored" data-anchor-id="suggestions">Suggestions</h2>
+<p>Consider using the following techniques:</p>
+<ol type="1">
+<li><p>Class activation maps (CAM) to visualize the most important regions of the input data (in music state space) that contribute to the model’s prediction (in facial temperature features state space).</p></li>
+<li><p>Perturbation based methods to evaluate the robustness of the model’s predictions. For example, perturb the input data and observe how the model’s predictions change. This could help identify the most sensitive regions of the input data.</p></li>
+<li><p>Attention wights visualization to provide insights into which parts of the input the model is paying attention to.</p></li>
+<li><p>Trend and Seasonal Decomposition: Autoformer model, for example, uses decomposition layers to separate trend and seasonal components. Visualizing these components can help understand how the model captures different aspects of the time-series data.</p></li>
+</ol>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -604,9 +642,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../python-example.html" class="pagination-link" aria-label="Python Example">
-        <span class="nav-page-text">Python Example</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -617,7 +652,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/radned17/ml-projects/edit/main/project-proposals/explainable-dl.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/radned17/ml-projects/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/radned17/ml-projects/edit/main/project-proposals/explainable-dl.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/radned17/ml-projects/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

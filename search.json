@@ -58,6 +58,39 @@
     ]
   },
   {
+    "objectID": "project-proposals/explainable-dl.html",
+    "href": "project-proposals/explainable-dl.html",
+    "title": "Explainable Deep Learning",
+    "section": "",
+    "text": "This task builds on the results of the Time series modelling. Specifically, it requires a well trained time series model, the accuracy of which supports our hypothesis of a causal association between musical stimuli and brain activity.\nThe aim is to estimate the quality of the causal association by applying techniques of explainable deep learning. The goal is to understand the model’s decision-making process and to identify the most important features that influence the model’s predictions. This could lead to an improved understanding of the underlying causal mechanisms and identification of strong/main musical triggers of brain activity.",
+    "crumbs": [
+      "Task proposals",
+      "Explainable DL"
+    ]
+  },
+  {
+    "objectID": "project-proposals/explainable-dl.html#problem-statement",
+    "href": "project-proposals/explainable-dl.html#problem-statement",
+    "title": "Explainable Deep Learning",
+    "section": "",
+    "text": "This task builds on the results of the Time series modelling. Specifically, it requires a well trained time series model, the accuracy of which supports our hypothesis of a causal association between musical stimuli and brain activity.\nThe aim is to estimate the quality of the causal association by applying techniques of explainable deep learning. The goal is to understand the model’s decision-making process and to identify the most important features that influence the model’s predictions. This could lead to an improved understanding of the underlying causal mechanisms and identification of strong/main musical triggers of brain activity.",
+    "crumbs": [
+      "Task proposals",
+      "Explainable DL"
+    ]
+  },
+  {
+    "objectID": "project-proposals/explainable-dl.html#suggestions",
+    "href": "project-proposals/explainable-dl.html#suggestions",
+    "title": "Explainable Deep Learning",
+    "section": "Suggestions",
+    "text": "Suggestions\nConsider using the following techniques:\n\nClass activation maps (CAM) to visualize the most important regions of the input data (in music state space) that contribute to the model’s prediction (in facial temperature features state space).\nPerturbation based methods to evaluate the robustness of the model’s predictions. For example, perturb the input data and observe how the model’s predictions change. This could help identify the most sensitive regions of the input data.\nAttention wights visualization to provide insights into which parts of the input the model is paying attention to.\nTrend and Seasonal Decomposition: Autoformer model, for example, uses decomposition layers to separate trend and seasonal components. Visualizing these components can help understand how the model captures different aspects of the time-series data.",
+    "crumbs": [
+      "Task proposals",
+      "Explainable DL"
+    ]
+  },
+  {
     "objectID": "explore.html",
     "href": "explore.html",
     "title": "Explore and setup",
@@ -348,20 +381,14 @@
     "href": "python-example.html",
     "title": "Python Example",
     "section": "",
-    "text": "This example has some Python code that will be a part of our Quarto site.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
-    "crumbs": [
-      "Python Example"
-    ]
+    "text": "This example has some Python code that will be a part of our Quarto site.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "python-example.html#introduction",
     "href": "python-example.html#introduction",
     "title": "Python Example",
     "section": "",
-    "text": "This example has some Python code that will be a part of our Quarto site.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
-    "crumbs": [
-      "Python Example"
-    ]
+    "text": "This example has some Python code that will be a part of our Quarto site.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "project-proposals/face-tracking.html",
@@ -412,18 +439,18 @@
     "href": "project-proposals/time-series-modelling.html",
     "title": "Time Series Modelling",
     "section": "",
-    "text": "We propose a hypothesis suggesting a causal relationship between two stochastic processes, each defined in distinct state spaces with differing dimensions. The first process corresponds to a thermocamera video capturing faces, while the second represents a music recording.\nThe aim is to compare the self-forecasting of the first process with its forecasting that also incorporates insights from the second process. If the latter demonstrates superior performance, it could indicate a causal relationship between the two processes. This conclusion rests also on the assumption that an opera performance is highly unlikely to be influenced by its audience.",
+    "text": "We propose a hypothesis suggesting a causal association between two stochastic processes, each operating within its own distinct state space with differing dimensions. The first process involves thermocamera video capturing faces, while the second involves music recording.\nThe aim is to estimate the intensity of the causal association by comparing the self-forecasting of the first process with its forecasting that also incorporates insights from the second process. If the latter demonstrates superior performance, it could indicate a causal association between the two processes.1",
     "crumbs": [
       "Task proposals",
       "Time series modelling"
     ]
   },
   {
-    "objectID": "project-proposals/time-series-modelling.html#time-series-modelling",
-    "href": "project-proposals/time-series-modelling.html#time-series-modelling",
+    "objectID": "project-proposals/time-series-modelling.html#problem-statement",
+    "href": "project-proposals/time-series-modelling.html#problem-statement",
     "title": "Time Series Modelling",
     "section": "",
-    "text": "We propose a hypothesis suggesting a causal relationship between two stochastic processes, each defined in distinct state spaces with differing dimensions. The first process corresponds to a thermocamera video capturing faces, while the second represents a music recording.\nThe aim is to compare the self-forecasting of the first process with its forecasting that also incorporates insights from the second process. If the latter demonstrates superior performance, it could indicate a causal relationship between the two processes. This conclusion rests also on the assumption that an opera performance is highly unlikely to be influenced by its audience.",
+    "text": "We propose a hypothesis suggesting a causal association between two stochastic processes, each operating within its own distinct state space with differing dimensions. The first process involves thermocamera video capturing faces, while the second involves music recording.\nThe aim is to estimate the intensity of the causal association by comparing the self-forecasting of the first process with its forecasting that also incorporates insights from the second process. If the latter demonstrates superior performance, it could indicate a causal association between the two processes.1",
     "crumbs": [
       "Task proposals",
       "Time series modelling"
@@ -434,7 +461,18 @@
     "href": "project-proposals/time-series-modelling.html#suggestions",
     "title": "Time Series Modelling",
     "section": "Suggestions",
-    "text": "Suggestions\ndf",
+    "text": "Suggestions\nWe suggest using a long sequence time forecasting model with a transformer architecture, which has proven effective in handling complex time dependencies in time series data. Specifically, Autoformer and Informer are hot candidates: they are both open source, available on HuggingFace Hub of Git-based repos, and can be relatively easily adapted to our needs.\nNote that causal inference assumes unconfoundedness of the two processes. In general, unconfoundedness is a strong assumption necessary for making causal inferences. However, in our case, it is a reasonable assumption, excluding hidden variables that significantly influence both processes. For example, a potential confounder could be tiredness if it strongly impacts both the opera director/singers/musicians and the audience. In such case, we would need to adjust for it, which is a standard approach in causal inference from observational data.",
+    "crumbs": [
+      "Task proposals",
+      "Time series modelling"
+    ]
+  },
+  {
+    "objectID": "project-proposals/time-series-modelling.html#footnotes",
+    "href": "project-proposals/time-series-modelling.html#footnotes",
+    "title": "Time Series Modelling",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is supported by chain rule for entropy: \\(H(X)=I(X;Y)+H(X∣Y)\\), and rests also on the assumption that an opera performance is highly unlikely to be influenced by its audience.↩︎",
     "crumbs": [
       "Task proposals",
       "Time series modelling"
