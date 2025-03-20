@@ -45,7 +45,7 @@ website:
             text: Time series modelling
           - href: project-proposals/explainable-dl.md
             text: Explainable DL
-      - python-example.ipynb    
+      #- python-example.ipynb    
 
 format:
   html:
