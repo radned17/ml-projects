@@ -268,22 +268,26 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Influence of Art on Brain Activity",
+    "title": "Redirect",
     "section": "",
-    "text": "This webpage is dedicated to an innovative research project exploring the profound influence of musical stimuli on brain activity. Specifically, we immerse participants in the experience of full-length lyric operas, harnessing their rich musical and narrative complexity to study how these masterpieces engage the human mind.\nWe hypothesize that changes in skin temperature provide a reliable proxy for the impact of artistic stimuli on brain activity. Using a high-sensitivity thermocamera, we record videos of participants as they experience opera performances. These recordings allow us to track detailed facial heatmaps, capturing physiological responses over the duration of the performance.\nThe goal of this project is to uncover how complete operatic works influence brain activity, helping us identify strong musical triggers and enabling a deeper understanding of the human brain. This research can unlock insights into the cognitive and emotional processes shaped by art and contribute to fields such as neuroscience, psychology, and personalized artistic engagement.\nThe practical applications are wide-ranging. In healthcare, the findings may inspire personalized therapeutic interventions for conditions like stress, anxiety, and rehabilitation. In the realm of show business, they could inform the creation of immersive performances that maximize emotional resonance and audience engagement.",
+    "text": "&lt;!DOCTYPE html&gt;\n\n\n\n\n\n\nIf you are not redirected automatically, follow this link to Project2.",
     "crumbs": [
       "Welcome"
     ]
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
+    "objectID": "index_orig.html",
+    "href": "index_orig.html",
     "title": "Influence of Art on Brain Activity",
     "section": "",
-    "text": "This webpage is dedicated to an innovative research project exploring the profound influence of musical stimuli on brain activity. Specifically, we immerse participants in the experience of full-length lyric operas, harnessing their rich musical and narrative complexity to study how these masterpieces engage the human mind.\nWe hypothesize that changes in skin temperature provide a reliable proxy for the impact of artistic stimuli on brain activity. Using a high-sensitivity thermocamera, we record videos of participants as they experience opera performances. These recordings allow us to track detailed facial heatmaps, capturing physiological responses over the duration of the performance.\nThe goal of this project is to uncover how complete operatic works influence brain activity, helping us identify strong musical triggers and enabling a deeper understanding of the human brain. This research can unlock insights into the cognitive and emotional processes shaped by art and contribute to fields such as neuroscience, psychology, and personalized artistic engagement.\nThe practical applications are wide-ranging. In healthcare, the findings may inspire personalized therapeutic interventions for conditions like stress, anxiety, and rehabilitation. In the realm of show business, they could inform the creation of immersive performances that maximize emotional resonance and audience engagement.",
-    "crumbs": [
-      "Welcome"
-    ]
+    "text": "This webpage is dedicated to an innovative research project exploring the profound influence of musical stimuli on brain activity. Specifically, we immerse participants in the experience of full-length lyric operas, harnessing their rich musical and narrative complexity to study how these masterpieces engage the human mind.\nWe hypothesize that changes in skin temperature provide a reliable proxy for the impact of artistic stimuli on brain activity. Using a high-sensitivity thermocamera, we record videos of participants as they experience opera performances. These recordings allow us to track detailed facial heatmaps, capturing physiological responses over the duration of the performance.\nThe goal of this project is to uncover how complete operatic works influence brain activity, helping us identify strong musical triggers and enabling a deeper understanding of the human brain. This research can unlock insights into the cognitive and emotional processes shaped by art and contribute to fields such as neuroscience, psychology, and personalized artistic engagement.\nThe practical applications are wide-ranging. In healthcare, the findings may inspire personalized therapeutic interventions for conditions like stress, anxiety, and rehabilitation. In the realm of show business, they could inform the creation of immersive performances that maximize emotional resonance and audience engagement."
+  },
+  {
+    "objectID": "index_orig.html#welcome",
+    "href": "index_orig.html#welcome",
+    "title": "Influence of Art on Brain Activity",
+    "section": "",
+    "text": "This webpage is dedicated to an innovative research project exploring the profound influence of musical stimuli on brain activity. Specifically, we immerse participants in the experience of full-length lyric operas, harnessing their rich musical and narrative complexity to study how these masterpieces engage the human mind.\nWe hypothesize that changes in skin temperature provide a reliable proxy for the impact of artistic stimuli on brain activity. Using a high-sensitivity thermocamera, we record videos of participants as they experience opera performances. These recordings allow us to track detailed facial heatmaps, capturing physiological responses over the duration of the performance.\nThe goal of this project is to uncover how complete operatic works influence brain activity, helping us identify strong musical triggers and enabling a deeper understanding of the human brain. This research can unlock insights into the cognitive and emotional processes shaped by art and contribute to fields such as neuroscience, psychology, and personalized artistic engagement.\nThe practical applications are wide-ranging. In healthcare, the findings may inspire personalized therapeutic interventions for conditions like stress, anxiety, and rehabilitation. In the realm of show business, they could inform the creation of immersive performances that maximize emotional resonance and audience engagement."
   },
   {
     "objectID": "quarto-workflows/index.html",
