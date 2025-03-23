@@ -5,12 +5,15 @@ format: html
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=https://rdned.github.io/ml-projects/" />
     <script type="text/javascript">
-        window.location.href = "https://rdned.github.io/ml-projects/"
+        var newUrl = window.location.href.replace('radned17.github.io/ml-projects', 'rdned.github.io/ml-projects');
+        window.location.href = newUrl;
     </script>
 </head>
 <body>
-    If you are not redirected automatically, follow this <a href='https://rdned.github.io/ml-projects/'>link to Project2</a>.
+    If you are not redirected automatically, follow this <a id="redirect-link" href="#">link to ml-projects</a>.
+    <script type="text/javascript">
+        document.getElementById('redirect-link').href = window.location.href.replace('radned17.github.io/ml-projects', 'rdned.github.io/ml-projects');
+    </script>
 </body>
 </html>
